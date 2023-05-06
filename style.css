@@ -1,0 +1,226 @@
+.body{
+    margin: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#87bdd8;
+}
+
+.Titlu{
+    display: block;
+    text-align: center;
+    margin: 0px;
+
+    background-color: #80ced6;
+    padding: 8px;
+    padding: 8px;
+    padding: 8px;
+    padding-bottom: 0px;
+    margin: 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #618685;
+}
+.subtitlu{
+    text-align: center;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.topnav {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    overflow: hidden;
+    background-color: #344d4c;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:#618685;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;   
+  }
+
+.descriere{
+    text-align: center;
+}
+
+
+/*---------------------------------------------*/
+
+
+body, html {
+    height: 90%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    background-image: url("https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5mb3JtYXRpb258ZW58MHx8MHx8&w=1000&q=80");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+/*--------------------------------------------------*/
+
+  .bg-sport-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /*--------------------------------------------------*/
+  /*--------------------------------------------------*/
+  .bg-image-arta {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmLYMCqrbRPLhsIa8SHrguN1Dunx6__0JKA&usqp=CAU");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-arta-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /*--------------------------------------------------*/
+  .bg-image-concursuri {
+    background-image: url("https://i.pinimg.com/736x/56/6f/14/566f14057cde9bb7898d7f25d305528d.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-concursuri-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /*--------------------------------------------------*/
+
+  .articole-sport-1{
+
+    position: absolute;
+    background-color: rgba(106, 95, 95, 0.4);
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-style: solid;
+    border-color: darkslategray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+
+   /*--------------------------------------------------*/
+
+   .articole-sport-2{
+ 
+    position: absolute;
+    display: block  ;
+    background-color: rgba(106, 95, 95, 0.4);
+    font-weight: bold;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    border-style: solid;
+    border-color: darkslategray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+/*--------------------------------------------------*/
+
+.articole-sport-3{
+
+  position: absolute;
+  display: block; 
+  background-color: rgba(106, 95, 95, 0.4);
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  border-style: solid;
+  border-color: darkslategray;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: left;
+}
+/*--------------------------------------------------*/
+
+.movie-interface{
+  background-color: rgb(48, 48, 49);
+}
+
+
+

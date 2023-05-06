@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(33, 33, 33);"class="body">
+    <h1 class="Titlu"> 《 Fii informat 》</h1>
+    <h3 class="subtitlu">Doza ta zilnică de informații</h3>
+    <div class="topnav">
+        <a class="active" href="index.html">🏠 Acasă</a>
+        <a href="Sport.html">Sport</a>
+        <a href="Muzica.html">Muzică</a>
+        <a href="Arta.html">Artă</a>
+        <a href="Gaming.html">Gaming</a>
+        <a style="background-color: gray;" style="color: black;" href="Filme.html">Filme</a>
+        <a href="Concursuri.html">Concursuri</a>
+        <a href="Contact.html">Contact</a>
+      </div><br>
+    
+
+      <div class="netflix-interface">
+        <div class="banner">
+          <h1 class="threeD" style="text-shadow: black;">Recomandari de filme</h1>
+        </div>
+        <div class="movie-list">
+          <div class="movie">
+            <div class="movie-image" style="background-image: url('https://www.postmodern.ro/wp-content/uploads/2022/10/minunea-filme-netflix.jpg')"></div>
+            <h2>The Wonder / Minunea (2022)
+            </h2>
+          </div>
+          <div class="movie">
+            <div class="movie-image" style="background-image: url('https://www.postmodern.ro/wp-content/uploads/2022/01/hustle-filme-netflix-2022.jpg')"></div>
+            <h2>Hustle / Marea încercare (2022) </h2>
+          </div>
+          <div class="movie">
+            <div class="movie-image" style="background-image: url('https://www.postmodern.ro/wp-content/uploads/2022/11/pinocchio-filme-netflix-noi_.jpg')"></div>
+            <h2>Pinocchio (2022)</h2>
+          </div>
+        </div>
+      </div>
+      
+      <style>
+                a {
+          display: inline-block;
+          padding: 10px 20px;
+          color: #000000;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        .netflix-interface {
+          width: 100%;
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        
+        .threeD {
+  color: rgb(99, 13, 13);
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 rgb(255, 255, 255), 1px 2px 0 rgb(255, 255, 255), 1px 3px 0 rgb(255, 255, 255), 1px 4px 0 rgb(255, 255, 255),
+    1px 5px 0 rgb(87, 17, 137), 1px 6px 0 rgb(87, 17, 137), 1px 7px 0 grey, 1px 8px 0 grey,
+    5px 13px 15px black;
+}
+
+.threeD:hover {
+  transition: 0.3s;
+  transform: scale(1.1)translate(-50%, -50%);
+  text-shadow: 1px -1px 0 rgb(82, 10, 108), 1px -2px 0 rgb(86, 12, 109), 1px -3px 0 rgb(90, 11, 114),
+    1px -4px 0 rgb(255, 255, 255), 1px -5px 0 rgb(255, 255, 255), 1px -6px 0 rgb(255, 255, 255), 1px -7px 0 rgb(255, 255, 255),
+    1px -8px 0 rgb(255, 255, 255), 5px -13px 15px black, 5px -13px 25px #ffffff;
+}
+
+
+        .banner {
+          position: relative;
+          height: 400px;
+          background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ccd3cde-f8c0-480c-ab9d-4db767bda944/dc0txr7-14cb4e25-21fa-49f2-89a5-169067e6b7d1.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNjY2QzY2RlLWY4YzAtNDgwYy1hYjlkLTRkYjc2N2JkYTk0NFwvZGMwdHhyNy0xNGNiNGUyNS0yMWZhLTQ5ZjItODlhNS0xNjkwNjdlNmI3ZDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fLwk5p4ks16nRV1_JuOhgY8gGabJtu2ZVKlU6ousyNc');
+          background-size: cover;
+          background-position: center;
+          color: #fff;
+          height: 180px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .banner h1 {
+          font-size: 3rem;
+          margin: 0;
+        }
+        
+        .movie-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        
+        .movie {
+          width: calc(33.33% - 10px);
+          margin-bottom: 20px;
+          position: relative;
+        }
+        
+        .movie-image {
+          height: 0;
+          padding-bottom: 150%;
+          background-size: cover;
+          background-position: center;
+        }
+        
+        .movie h2 {
+          margin: 10px 0 0;
+          font-size: 1.2rem;
+        }
+        
+        @media screen and (max-width: 768px) {
+          .movie {
+            width: calc(50% - 10px);
+          }
+        }
+        
+        @media screen and (max-width: 480px) {
+          .movie {
+            width: 100%;
+          }
+        }
+      </style>
+      
+
+
+</head>
+<body>
+    
+</body>
+</html>
